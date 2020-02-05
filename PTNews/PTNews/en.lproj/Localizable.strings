@@ -1,0 +1,10 @@
+/* 
+  Localizable.strings
+  PTNews
+
+  Created by Luiz Durães on 05/02/2020.
+  Copyright © 2020 Luiz Durães. All rights reserved.
+*/
+
+"list.message.unavailable" = "No news available!";
+"list.title" = "🇵🇹 News";
