@@ -1,16 +1,14 @@
 language: swift
 osx_image: xcode11.3
 script:
-  - cd PTNews
-  - xcodebuild -scheme PTNews -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 11,OS=13.3' clean build test
-after_success:
-  - bash <(curl -s https://codecov.io/bash) -J PTNews -v
+- cd PTNews
+- xcodebuild -scheme PTNews -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone
+  11,OS=13.3' clean build test
 notifications:
   email:
     on_success: never
     on_failure: change
   slack:
-    rooms:
-      - secure: coxT+y02AAoLdycv9S5IW5n5piTYwhBUp5j4sLWtS6visgvUIUGKqMwfaZGuL21VwolZAQWPPFagBBK5+g73X86eWFnrx6kKu7ubpHXsx2HQjChbHbLYTj9THPAj2aF3+m0ZirXr3pYoXAcxXF5kdDgJlSzT1tvZgkvJ8gGkF4Yxq9ekIi94yeaDJfemwgZYVE6Q5yCKXlWvaPc2drFTyNs8fzs9htWjGTcmwQB2EObORtDGjYl2kwdsAWFpiSaCdhN7ZG8vJiN3M58YQuYlmPrXCTvfzBIM+IH3JNTRfDVSNHk9x4bXmGRemwGHFD+WQ++iNbV80tRNparKjQwpLowzvEomqCS//jKm2AK4PcxBBDHNoshqu9WhBisnUNNUGQx5kKUSwgk3h25YzLfNp9HtiIUXvX1Dd6KsfpzCFYOg2KBjaGMl1zIanNKSOOAerlpIn7Fr9gD3VrGf42K8Ukh+Piky7iRuQwgwuYxCiG3NXWPael/1qLegrGx3GRKpR5qwkvg+YQDmcLNrcBfvM01OLILyh58CInIVOIgcSYqN7px11czBCpfTTmlQD61yR5Hs/ktQnrpEVqbVxatVcqsl214wG5h8/RrUvEHq03SRzh4AxP8fQCrcYmrIQpt2LObIP85w9UzD5Hpt6MoSkaJnmtUe9BY7zy46iW8TRkA=
-    on_success: always
-    on_failure: always
+    secure: AtkCVOcwca0V9hZMzPlQKp4ayKQHk59JN6av+lwhI444G0h+K4tNoFHcqxg8CU4ZqAv0Tx2fhjHRTBxUU0lVmK6XYve529atLTs2R+wGX8NKw0w8xkSpp1I1L89P8VlFaOCjCIYaDvf/76qxWppJMDTC/bnGfJpR5PsCtptj21adHe46aM4zllWhPzK458+GXmgAU/RkZWASZIsnRmz9fHdNkvgga5dBdgZ537MBsGA2laLDhQxHjd8IvDZ6XlJHhu8cUZV6NqN4djypZY8cny84NahWgpXAnwRUNG4VX4U4f0gGcW1qcNxoKPqS6j0zTuHWIwgQUucwNOLqx6g2Iskvvsg/UEnMOf3jGwi85SYFArDdC3AEKA8HS5JZiCab/9LFhyithPLxwAyFlJz4M4Fb3N/ensL47Z9yHHmx0SJ8jxb7PJYDFk+59SklTcrt9GWYe3hKrtodCkGeLA5PHxnhT1hTEc5jfwtqrvLtDXVm1wxN7ciEl/JKfrFRNfT1LP5zJORYh6pan7QX5GGUMGSxCNlDpK9o/amsDD15dxjA8Dqi3dChOlJvMGuqrJzZYf6loF8luys+OpyUSTrOZQVDCuG+XC0645mb/aSJha1WUfO/y7xcmXCoMHIgy+GF2OTNDtWS73XNaYpFTIKbOBRMYTtndT8PKGUiWQFmixE=
+after_success:
+- bash <(curl -s https://codecov.io/bash) -J PTNews -v

@@ -9,6 +9,7 @@ Demo project showcasing the setup of a brand new app using SwiftUI, MVVM and Loc
 This app uses [Publico]("https://www.publico.pt/") REST API to show latest 🇵🇹 news 
 as well as other european countries.
 
+
 ![Swift5.0](https://img.shields.io/badge/swift-5.0-orange.svg)
 ![platforms](https://img.shields.io/badge/platforms-iPhone%20%7C%20iPad%20%7C%20macOS-lightgrey) [![Build Status](https://travis-ci.com/lduraes/pt-news.svg?branch=master)](https://travis-ci.org/lduraes/pt-news) 
 [![codecov](https://codecov.io/gh/lduraes/pt-news/branch/master/graph/badge.svg)](https://codecov.io/gh/lduraes/pt-news)
@@ -36,12 +37,11 @@ as well as other european countries.
 -->
 
 ## Key features
-* Vanilla **SwiftUI** + **SPM** + **MVVM** implementation
+* Vanilla **SwiftUI** and **MVVM** implementation
 * Decoupled **Presentation** and **Business Logic** layers
 * Simple flexible networking layer built on Generics
 * Development mindset related to SOLID, DRY & KISS concepts
 <!-- * Added unit testing coverage -->
-
 
 ## Reporting Issues
 
@@ -56,8 +56,8 @@ Contributions are welcome! If you would like to contribute to this repository, f
 ### Article related to this project
 
 * [MVVM in SwiftUI](https://medium.com/flawless-app-stories/mvvm-in-swiftui-8a2e9cc2964a)
-<!-- * [Swift Package Manager Guide – the time to shine is now!] (https://tsh.io/blog/swift-package-manager-for-ios-new-features/) -->
- 
+* [Configuring Build Notifications](https://docs.travis-ci.com/user/notifications/)
+
 ---
 
 [![LinkedIn](https://img.shields.io/badge/linkedin-lduraes-blue)](https://www.linkedin.com/in/lduraes/) [![stackoverflow](https://img.shields.io/badge/stackoverflow-lduraes-orange)](http://www.careers.stackoverflow.com/lduraes) [![Twitter](https://img.shields.io/badge/twitter-ilduraes-blue)](https://twitter.com/ilduraes) [![aboutme](https://img.shields.io/badge/aboutme-lduraes-orange)](http:/duraes.me/profile.html) <!--[![lduraes](https://img.shields.io/badge/%F0%9F%8D%BA-lduraes-brightgreen)](lduraes@gmail.com)-->
