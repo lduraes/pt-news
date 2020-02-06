@@ -4,9 +4,13 @@ script:
   - cd PTNews
   - xcodebuild -scheme PTNews -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 11,OS=13.3' clean build test
 after_success:
-  - bash <(curl -s https://codecov.io/bash) -v
+  - bash <(curl -s https://codecov.io/bash) -J PTNews -v
 notifications:
+  email:
+    on_success: never
+    on_failure: change
   slack:
     rooms:
-      - secure: "coxT+y02AAoLdycv9S5IW5n5piTYwhBUp5j4sLWtS6visgvUIUGKqMwfaZGuL21VwolZAQWPPFagBBK5+g73X86eWFnrx6kKu7ubpHXsx2HQjChbHbLYTj9THPAj2aF3+m0ZirXr3pYoXAcxXF5kdDgJlSzT1tvZgkvJ8gGkF4Yxq9ekIi94yeaDJfemwgZYVE6Q5yCKXlWvaPc2drFTyNs8fzs9htWjGTcmwQB2EObORtDGjYl2kwdsAWFpiSaCdhN7ZG8vJiN3M58YQuYlmPrXCTvfzBIM+IH3JNTRfDVSNHk9x4bXmGRemwGHFD+WQ++iNbV80tRNparKjQwpLowzvEomqCS//jKm2AK4PcxBBDHNoshqu9WhBisnUNNUGQx5kKUSwgk3h25YzLfNp9HtiIUXvX1Dd6KsfpzCFYOg2KBjaGMl1zIanNKSOOAerlpIn7Fr9gD3VrGf42K8Ukh+Piky7iRuQwgwuYxCiG3NXWPael/1qLegrGx3GRKpR5qwkvg+YQDmcLNrcBfvM01OLILyh58CInIVOIgcSYqN7px11czBCpfTTmlQD61yR5Hs/ktQnrpEVqbVxatVcqsl214wG5h8/RrUvEHq03SRzh4AxP8fQCrcYmrIQpt2LObIP85w9UzD5Hpt6MoSkaJnmtUe9BY7zy46iW8TRkA="
+      - secure: coxT+y02AAoLdycv9S5IW5n5piTYwhBUp5j4sLWtS6visgvUIUGKqMwfaZGuL21VwolZAQWPPFagBBK5+g73X86eWFnrx6kKu7ubpHXsx2HQjChbHbLYTj9THPAj2aF3+m0ZirXr3pYoXAcxXF5kdDgJlSzT1tvZgkvJ8gGkF4Yxq9ekIi94yeaDJfemwgZYVE6Q5yCKXlWvaPc2drFTyNs8fzs9htWjGTcmwQB2EObORtDGjYl2kwdsAWFpiSaCdhN7ZG8vJiN3M58YQuYlmPrXCTvfzBIM+IH3JNTRfDVSNHk9x4bXmGRemwGHFD+WQ++iNbV80tRNparKjQwpLowzvEomqCS//jKm2AK4PcxBBDHNoshqu9WhBisnUNNUGQx5kKUSwgk3h25YzLfNp9HtiIUXvX1Dd6KsfpzCFYOg2KBjaGMl1zIanNKSOOAerlpIn7Fr9gD3VrGf42K8Ukh+Piky7iRuQwgwuYxCiG3NXWPael/1qLegrGx3GRKpR5qwkvg+YQDmcLNrcBfvM01OLILyh58CInIVOIgcSYqN7px11czBCpfTTmlQD61yR5Hs/ktQnrpEVqbVxatVcqsl214wG5h8/RrUvEHq03SRzh4AxP8fQCrcYmrIQpt2LObIP85w9UzD5Hpt6MoSkaJnmtUe9BY7zy46iW8TRkA=
     on_success: always
+    on_failure: always

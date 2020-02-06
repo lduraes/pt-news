@@ -4,15 +4,15 @@
 </h2>
 
 
-Demo project showcasing the setup of a brand new app using SwiftUI, MVVM and Localization. It also showcases a build automation process using TravisCI and Slack.
+Demo project showcasing the setup of a brand new app using SwiftUI, MVVM and Localization. It also showcases a build automation process using Travis CI, Codecov and Slack.
 
 This app uses [Publico]("https://www.publico.pt/") REST API to show latest 🇵🇹 news 
 as well as other european countries.
 
 ![Swift5.0](https://img.shields.io/badge/swift-5.0-orange.svg)
 ![platforms](https://img.shields.io/badge/platforms-iPhone%20%7C%20iPad%20%7C%20macOS-lightgrey) [![Build Status](https://travis-ci.com/lduraes/pt-news.svg?branch=master)](https://travis-ci.org/lduraes/pt-news) 
-<!--
 [![codecov](https://codecov.io/gh/lduraes/pt-news/branch/master/graph/badge.svg)](https://codecov.io/gh/lduraes/pt-news)
+<!--
 ![iOS](https://img.shields.io/badge/os-iOS-lightgrey.svg?style=flat)
 ![macOS](https://img.shields.io/badge/os-macOS-lightgrey.svg?style=flat)
 -->
