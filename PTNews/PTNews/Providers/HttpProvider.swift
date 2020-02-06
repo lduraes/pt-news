@@ -13,7 +13,11 @@ struct Resource<T> {
     let parse: (Data) -> T?
 }
 
-final class HttpProvider {
+protocol HttpProviderProtocol {
+    func fetch<T>(resource: Resource<T>, completionHandler: @escaping (T?) -> ())
+}
+
+final class HttpProvider: HttpProviderProtocol {
     static let shared = HttpProvider()
     
     private init() { }
