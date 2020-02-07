@@ -17,10 +17,10 @@ protocol HttpProviderProtocol {
     func fetch<T>(resource: Resource<T>, completionHandler: @escaping (T?) -> ())
 }
 
-final class HttpProvider: HttpProviderProtocol {
+struct HttpProvider: HttpProviderProtocol {
     static let shared = HttpProvider()
     
-    private init() { }
+    fileprivate init() { }
     
     func fetch<T>(resource: Resource<T>, completionHandler: @escaping (T?) -> ()) {
         guard let url = URL(string: "\(Constants.url)\(resource.endpoint)") else {
