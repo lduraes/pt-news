@@ -10,7 +10,7 @@ import Foundation
 
 struct Constants {
     static let url = "https://www.publico.pt/"
-        
+
     enum Endpoint: String {
         case allNews = "api/list/ultimas#"
     }

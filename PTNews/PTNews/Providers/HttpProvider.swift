@@ -14,21 +14,21 @@ struct Resource<T> {
 }
 
 protocol HttpProviderProtocol {
-    func fetch<T>(resource: Resource<T>, completionHandler: @escaping (T?) -> ())
+    func fetch<T>(resource: Resource<T>, completionHandler: @escaping (T?) -> Void)
 }
 
 struct HttpProvider: HttpProviderProtocol {
     static let shared = HttpProvider()
-    
+
     fileprivate init() { }
-    
-    func fetch<T>(resource: Resource<T>, completionHandler: @escaping (T?) -> ()) {
+
+    func fetch<T>(resource: Resource<T>, completionHandler: @escaping (T?) -> Void) {
         guard let url = URL(string: "\(Constants.url)\(resource.endpoint)") else {
             print("[ERR] HttpProvider >> Unable to load url")
             return
         }
-        
-        URLSession.shared.dataTask(with: url) { (data, response, error) in
+
+        URLSession.shared.dataTask(with: url) { (data, _, error) in
             if let data = data, error == nil {
                 DispatchQueue.main.async {
                     completionHandler(resource.parse(data))

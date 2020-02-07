@@ -10,7 +10,7 @@ import SwiftUI
 
 struct NewsListView: View {
     @ObservedObject var viewModel = NewsListViewModel()
-    
+
     var body: some View {
         NavigationView {
             VStack(alignment: .center) {
@@ -32,6 +32,11 @@ struct NewsListView: View {
             }
             .navigationBarTitle("list.title")
         }
+        // in order to appear records list in your iPad device or simulator, please perform following instructions:
+        //   - swipe right from the left edge OR
+        //   - rotate your iPad device / simulator OR
+        //   - uncomment workaround mentioned below. though, it will change the default way of showing a list records on iPad
+        //.navigationViewStyle(StackNavigationViewStyle())
         .onAppear {
             self.viewModel.fetchAllNews()
         }

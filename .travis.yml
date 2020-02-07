@@ -1,9 +1,10 @@
 language: swift
 osx_image: xcode11.3
+before_install:
+- brew install swiftlint
 script:
 - cd PTNews
-- xcodebuild -scheme PTNews -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone
-  11,OS=13.3' clean build test
+- xcodebuild -scheme PTNews -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 11,OS=13.3' clean build test
 notifications:
   email:
     on_success: never

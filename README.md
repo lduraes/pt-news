@@ -4,11 +4,12 @@
 </h2>
 
 
-Demo project showcasing the setup of a brand new app using SwiftUI, MVVM and Localization. It also showcases a build automation process using Travis CI, Codecov and Slack.
+Demo project showcasing an app with the latest 🇵🇹 news as well as other european countries.
+Stack used:
 
-This app uses [Publico]("https://www.publico.pt/") REST API to show latest 🇵🇹 news 
-as well as other european countries.
-
+* SwiftUI + MVVM + SwiftLint + Localization
+* Travis CI + Codecov + Slack
+* [Publico]("https://www.publico.pt/") REST API
 
 ![Swift5.0](https://img.shields.io/badge/swift-5.0-orange.svg)
 ![platforms](https://img.shields.io/badge/platforms-iPhone%20%7C%20iPad%20%7C%20macOS-lightgrey) [![Build Status](https://travis-ci.com/lduraes/pt-news.svg?branch=master)](https://travis-ci.org/lduraes/pt-news) 
@@ -40,8 +41,9 @@ as well as other european countries.
 * Vanilla **SwiftUI** and **MVVM** implementation
 * Decoupled **Presentation** and **Business Logic** layers
 * Simple flexible networking layer built on Generics
+* Support of customized lint rules
 * Development mindset related to SOLID, DRY & KISS concepts
-<!-- * Added unit testing coverage -->
+* Unit testing _(work in progress)_
 
 ## Reporting Issues
 
@@ -56,6 +58,7 @@ Contributions are welcome! If you would like to contribute to this repository, f
 ### Article related to this project
 
 * [MVVM in SwiftUI](https://medium.com/flawless-app-stories/mvvm-in-swiftui-8a2e9cc2964a)
+* [Setting up SwiftLint on Travis CI](https://alexplescan.com/posts/2016/03/03/setting-up-swiftlint-on-travis-ci/)
 * [Configuring Build Notifications](https://docs.travis-ci.com/user/notifications/)
 
 ---
