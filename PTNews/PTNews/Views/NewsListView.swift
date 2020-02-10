@@ -15,7 +15,7 @@ struct NewsListView: View {
         NavigationView {
             VStack(alignment: .center) {
                 if viewModel.isLoading {
-                    LoadingView(color: .blue, size: 60.0)
+                    LoadingView(color: .blue, size: LoadingConfig.DefaultSize)
                 } else {
                     if viewModel.allNews.count > 0 {
                         List(viewModel.allNews) { viewModel in

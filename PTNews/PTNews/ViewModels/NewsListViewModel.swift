@@ -12,7 +12,7 @@ class NewsListViewModel: ObservableObject {
     @Published var isLoading = false
     @Published var allNews: [NewsViewModel] = []
 
-    let resource = Resource<[NewsViewModel]>(endpoint: Constants.Endpoint.allNews.rawValue) { (data) -> [NewsViewModel]? in
+    let resource = Resource<[NewsViewModel]>(endpoint: APPConstants.Endpoint.allNews.rawValue) { (data) -> [NewsViewModel]? in
         do {
             let model = try JSONDecoder().decode([NewsViewModel].self, from: data)
             return model

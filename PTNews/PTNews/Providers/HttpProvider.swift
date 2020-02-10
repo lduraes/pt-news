@@ -23,7 +23,7 @@ struct HttpProvider: HttpProviderProtocol {
     fileprivate init() { }
 
     func fetch<T>(resource: Resource<T>, completionHandler: @escaping (T?) -> Void) {
-        guard let url = URL(string: "\(Constants.url)\(resource.endpoint)") else {
+        guard let url = URL(string: "\(APPConstants.Url)\(resource.endpoint)") else {
             print("[ERR] HttpProvider >> Unable to load url")
             return
         }

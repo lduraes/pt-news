@@ -47,7 +47,7 @@ Stack used:
 
 ## Reporting Issues
 
-If you have discovered any issue with this repository, please drop me a [message](mailto: lduraes@gmail.com) or post an issue here. I will do my best to keep this repository bug free and up-to-date.
+If you have discovered any issue with this repository, please drop me a [message](mailto:lduraes@gmail.com?subject=[GitHub]%20PTNews) or post an issue here. I will do my best to keep this repository bug free and up-to-date.
 
 ## Contributing
 
