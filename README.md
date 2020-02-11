@@ -13,7 +13,7 @@ Stack used:
 
 ![Swift5.0](https://img.shields.io/badge/swift-5.0-orange.svg)
 ![platforms](https://img.shields.io/badge/platforms-iPhone%20%7C%20iPad%20%7C%20macOS-lightgrey) [![Build Status](https://travis-ci.com/lduraes/pt-news.svg?branch=master)](https://travis-ci.org/lduraes/pt-news) 
-[![codecov](https://codecov.io/gh/lduraes/pt-news/branch/master/graph/badge.svg)](https://codecov.io/gh/lduraes/pt-news)
+[![codecov](https://codecov.io/gh/lduraes/pt-news/branch/master/graph/badge.svg)](https://codecov.io/gh/lduraes/pt-news) [![codebeat badge](https://codebeat.co/badges/70a3f646-604a-4fbe-be77-494fcf38e7d1)](https://codebeat.co/projects/github-com-lduraes-pt-news-master)
 <!--
 ![iOS](https://img.shields.io/badge/os-iOS-lightgrey.svg?style=flat)
 ![macOS](https://img.shields.io/badge/os-macOS-lightgrey.svg?style=flat)
