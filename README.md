@@ -11,10 +11,10 @@ Stack used:
 * Travis CI + Codecov + Slack
 * [Publico]("https://www.publico.pt/") REST API
 
-![Swift5.0](https://img.shields.io/badge/swift-5.0-orange.svg)
-![platforms](https://img.shields.io/badge/platforms-iPhone%20%7C%20iPad%20%7C%20macOS-lightgrey) [![Build Status](https://travis-ci.com/lduraes/pt-news.svg?branch=master)](https://travis-ci.org/lduraes/pt-news) 
+![Swift5.0](https://img.shields.io/badge/swift-5.0-orange.svg) <img alt="Cocoapods badge" src="https://img.shields.io/badge/license-MIT-%23373737"> ![platforms](https://img.shields.io/badge/platforms-iPhone%20%7C%20iPad%20%7C%20macOS-lightgrey) [![Build Status](https://travis-ci.com/lduraes/pt-news.svg?branch=master)](https://travis-ci.org/lduraes/pt-news) 
 [![codecov](https://codecov.io/gh/lduraes/pt-news/branch/master/graph/badge.svg)](https://codecov.io/gh/lduraes/pt-news) [![codebeat badge](https://codebeat.co/badges/70a3f646-604a-4fbe-be77-494fcf38e7d1)](https://codebeat.co/projects/github-com-lduraes-pt-news-master)
 <!--
+<img alt="GitHub badge" src="https://img.shields.io/badge/license-MIT-green">
 ![iOS](https://img.shields.io/badge/os-iOS-lightgrey.svg?style=flat)
 ![macOS](https://img.shields.io/badge/os-macOS-lightgrey.svg?style=flat)
 -->
@@ -23,7 +23,7 @@ Stack used:
   <img src="https://github.com/lduraes/images/blob/master/pt-news-macos-ios.png?raw=true" alt="Diagram"/>
 </p>
 
-## Requirements
+## 📝 Requirements
 
 * Xcode >= 11
 * iOS >= 13.2 
@@ -37,7 +37,7 @@ Stack used:
 </p>
 -->
 
-## Key features
+## ✨ Key features
 * Vanilla **SwiftUI** and **MVVM** implementation
 * Decoupled **Presentation** and **Business Logic** layers
 * Simple flexible networking layer built on Generics
@@ -45,17 +45,17 @@ Stack used:
 * Development mindset related to SOLID, DRY & KISS concepts
 * Unit testing _(work in progress)_
 
-## Reporting Issues
+## ⚠️ Reporting issues
 
 If you have discovered any issue with this repository, please drop me a [message](mailto:lduraes@gmail.com?subject=[GitHub]%20PTNews) or post an issue here. I will do my best to keep this repository bug free and up-to-date.
 
-## Contributing
+## 🚀 Contributing
 
 Contributions are welcome! If you would like to contribute to this repository, feel free to open a pull request or flag an issue. 
 
 --- 
 
-### Article related to this project
+### 🗞️ Articles related to this project
 
 * [MVVM in SwiftUI](https://medium.com/flawless-app-stories/mvvm-in-swiftui-8a2e9cc2964a)
 * [Setting up SwiftLint on Travis CI](https://alexplescan.com/posts/2016/03/03/setting-up-swiftlint-on-travis-ci/)
