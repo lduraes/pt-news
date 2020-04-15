@@ -27,13 +27,11 @@ as well as other european countries.
 * iOS >= 13.2 
 * macOS >= 10.15
 
-<!--
 ## Architecture overview
 
 <p align="center">
   <img src="https://i.stack.imgur.com/0VBaq.png?raw=true" alt="Diagram"/>
 </p>
--->
 
 ## Key features
 * Vanilla **SwiftUI** + **SPM** + **MVVM** implementation
