@@ -8,7 +8,7 @@ Demo project showcasing an app with the latest 🇵🇹 news as well as other eu
 Stack used:
 
 * SwiftUI + MVVM + SwiftLint + Localization
-* Travis CI + Codecov + Slack
+* Travis CI + Codecov + Codebeat + Maintainability + Slack
 * [Publico]("https://www.publico.pt/") REST API
 
 ![Swift5.0](https://img.shields.io/badge/swift-5.0-orange.svg) ![license](https://img.shields.io/badge/license-MIT-%23373737) ![platforms](https://img.shields.io/badge/platforms-iPhone%20%7C%20iPad%20%7C%20macOS-lightgrey) [![Build Status](https://travis-ci.com/lduraes/pt-news.svg?branch=master)](https://travis-ci.org/lduraes/pt-news) 
