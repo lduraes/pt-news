@@ -11,13 +11,8 @@ Stack used:
 * Travis CI + Codecov + Slack
 * [Publico]("https://www.publico.pt/") REST API
 
-![Swift5.0](https://img.shields.io/badge/swift-5.0-orange.svg) <img alt="Cocoapods badge" src="https://img.shields.io/badge/license-MIT-%23373737"> ![platforms](https://img.shields.io/badge/platforms-iPhone%20%7C%20iPad%20%7C%20macOS-lightgrey) [![Build Status](https://travis-ci.com/lduraes/pt-news.svg?branch=master)](https://travis-ci.org/lduraes/pt-news) 
-[![codecov](https://codecov.io/gh/lduraes/pt-news/branch/master/graph/badge.svg)](https://codecov.io/gh/lduraes/pt-news) [![codebeat badge](https://codebeat.co/badges/70a3f646-604a-4fbe-be77-494fcf38e7d1)](https://codebeat.co/projects/github-com-lduraes-pt-news-master)
-<!--
-<img alt="GitHub badge" src="https://img.shields.io/badge/license-MIT-green">
-![iOS](https://img.shields.io/badge/os-iOS-lightgrey.svg?style=flat)
-![macOS](https://img.shields.io/badge/os-macOS-lightgrey.svg?style=flat)
--->
+![Swift5.0](https://img.shields.io/badge/swift-5.0-orange.svg) [![license](https://img.shields.io/badge/license-MIT-%23373737) ![platforms](https://img.shields.io/badge/platforms-iPhone%20%7C%20iPad%20%7C%20macOS-lightgrey) [![Build Status](https://travis-ci.com/lduraes/pt-news.svg?branch=master)](https://travis-ci.org/lduraes/pt-news) 
+[![codecov](https://codecov.io/gh/lduraes/pt-news/branch/master/graph/badge.svg)](https://codecov.io/gh/lduraes/pt-news) [![codebeat badge](https://codebeat.co/badges/70a3f646-604a-4fbe-be77-494fcf38e7d1)](https://codebeat.co/projects/github-com-lduraes-pt-news-master)[![Maintainability](https://api.codeclimate.com/v1/badges/e4fffb5b840c86f04fd4/maintainability)](https://codeclimate.com/github/lduraes/pt-news/maintainability) <!-- [![Test Coverage](https://api.codeclimate.com/v1/badges/e4fffb5b840c86f04fd4/test_coverage)](https://codeclimate.com/github/lduraes/pt-news/test_coverage) -->
 
 <p align="center">
   <img src="https://github.com/lduraes/images/blob/master/pt-news-macos-ios.png?raw=true" alt="Diagram"/>
@@ -63,4 +58,4 @@ Contributions are welcome! If you would like to contribute to this repository, f
 
 ---
 
-[![LinkedIn](https://img.shields.io/badge/linkedin-lduraes-blue)](https://www.linkedin.com/in/lduraes/) [![stackoverflow](https://img.shields.io/badge/stackoverflow-lduraes-orange)](http://www.careers.stackoverflow.com/lduraes) [![Twitter](https://img.shields.io/badge/twitter-ilduraes-blue)](https://twitter.com/ilduraes) [![aboutme](https://img.shields.io/badge/aboutme-lduraes-orange)](http:/duraes.me/profile.html) <!--[![lduraes](https://img.shields.io/badge/%F0%9F%8D%BA-lduraes-brightgreen)](lduraes@gmail.com)-->
+[![LinkedIn](https://img.shields.io/badge/linkedin-lduraes-blue)](https://www.linkedin.com/in/lduraes/) [![stackoverflow](https://img.shields.io/badge/stackoverflow-lduraes-orange)](https://stackoverflow.com/cv/lduraes) [![Twitter](https://img.shields.io/badge/twitter-ilduraes-blue)](https://twitter.com/ilduraes) [![aboutme](https://img.shields.io/badge/aboutme-lduraes-orange)](http:/duraes.me/profile.html) <!--[![lduraes](https://img.shields.io/badge/%F0%9F%8D%BA-lduraes-brightgreen)](lduraes@gmail.com)-->
