@@ -9,13 +9,13 @@ Stack used:
 
 * SwiftUI + MVVM + SwiftLint + Localization
 * Travis CI + Codecov + Codebeat + Maintainability + Slack
-* [Publico]("https://www.publico.pt/") REST API
+* [Publico](https://www.publico.pt/) REST API
 
 ![Swift5.0](https://img.shields.io/badge/swift-5.0-orange.svg) ![license](https://img.shields.io/badge/license-MIT-%23373737) ![platforms](https://img.shields.io/badge/platforms-iPhone%20%7C%20iPad%20%7C%20macOS-lightgrey) [![Build Status](https://travis-ci.com/lduraes/pt-news.svg?branch=master)](https://travis-ci.org/lduraes/pt-news) 
-[![codecov](https://codecov.io/gh/lduraes/pt-news/branch/master/graph/badge.svg)](https://codecov.io/gh/lduraes/pt-news) [![codebeat badge](https://codebeat.co/badges/70a3f646-604a-4fbe-be77-494fcf38e7d1)](https://codebeat.co/projects/github-com-lduraes-pt-news-master) [![Maintainability](https://api.codeclimate.com/v1/badges/e4fffb5b840c86f04fd4/maintainability)](https://codeclimate.com/github/lduraes/pt-news/maintainability) <!-- [![Test Coverage](https://api.codeclimate.com/v1/badges/e4fffb5b840c86f04fd4/test_coverage)](https://codeclimate.com/github/lduraes/pt-news/test_coverage) --> [<img src="https://img.shields.io/badge/slack-@mob4u/builds-yellow.svg?logo=slack">](https://app.slack.com/client/T561Y6P08/C56QD7N4V)
+[![codecov](https://codecov.io/gh/lduraes/pt-news/branch/master/graph/badge.svg)](https://codecov.io/gh/lduraes/pt-news) [![codebeat badge](https://codebeat.co/badges/70a3f646-604a-4fbe-be77-494fcf38e7d1)](https://codebeat.co/projects/github-com-lduraes-pt-news-master) [![Maintainability](https://api.codeclimate.com/v1/badges/e4fffb5b840c86f04fd4/maintainability)](https://codeclimate.com/github/lduraes/pt-news/maintainability) <!-- [![Test Coverage](https://api.codeclimate.com/v1/badges/e4fffb5b840c86f04fd4/test_coverage)](https://codeclimate.com/github/lduraes/pt-news/test_coverage) --> [![slack](https://img.shields.io/badge/slack-@mob4u/builds-yellow.svg?logo=slack")](https://app.slack.com/client/T561Y6P08/C56QD7N4V)
 
 <p align="center">
-  <img src="https://github.com/lduraes/images/blob/master/pt-news-macos-ios.png?raw=true" alt="Diagram"/>
+  <img src="https://github.com/lduraes/images/blob/master/pt-news-macos-ios.png?raw=true" alt="macOS and iOS"/>
 </p>
 
 ## 📝 Requirements
@@ -24,13 +24,11 @@ Stack used:
 * iOS >= 13.2 
 * macOS >= 10.15
 
-<!--
-## Architecture overview
+## 🔍 Architecture overview
 
 <p align="center">
-  <img src="https://i.stack.imgur.com/0VBaq.png?raw=true" alt="Diagram"/>
+  <img src="https://github.com/lduraes/images/blob/master/mvvm-01.png?raw=true" alt="Architecture"/>
 </p>
--->
 
 ## ✨ Key features
 * Vanilla **SwiftUI** and **MVVM** implementation
